@@ -34,8 +34,16 @@ body{
     background: rgb(74, 74, 75);
     border-radius: 16px;
     width: 80%;
-    padding: 10px;
+    padding: 6px;
     color: white;
+}
+
+.header .inner-wrap .inner-logo-search .inner-search input{
+    background: rgb(74, 74, 75);
+    border: none;
+    color: white;
+    width: 80%;
+    padding: 5px;
 }
 
 .header .inner-wrap .inner-menu{
@@ -53,18 +61,19 @@ body{
     display: flex;
     justify-content: space-around;
     width: 15%;
-    font-size: 24px;
 }
 
 .header .inner-wrap .inner-more .more-menu, .messenger, .notification{
-    width: 26px;
-    height: 26px;
+    width: 36px;
+    height: 36px;
     background: rgb(74, 74, 75);
     border-radius: 50%;
     /* overflow: hidden; */
     text-align: center;
     padding: 5px;
     color: white;
+    border: none;
+    font-size: 24px;
 }
 
 .header .inner-wrap .inner-more .image-avatar{
@@ -72,6 +81,9 @@ body{
     height: 36px;
     border-radius: 50%;
     overflow: hidden;
+    text-align: center;
+    border: none;
+    padding: 0 0;
 }
 
 
@@ -104,6 +116,7 @@ body{
     bottom: 20px;
     right: 20px;
     border-radius: 5px;
+    border: none;
 }
 
 .section-two{
@@ -142,15 +155,16 @@ body{
 .section-two .container .profile .avatar .camera {
     border-radius: 50%;
     background: rgb(74, 74, 75); 
-    width: 26px;
-    height: 26px;
+    width: 36px;
+    height: 36px;
     color: white;
     font-size: 24px;
     text-align: center;
-    padding: 4px;
+    /* padding: 4px; */
     position: absolute;
     bottom: -85%;
     right: 45%;
+    border: none;
 }
 
 .section-two .container .profile .name h3{
@@ -177,21 +191,25 @@ body{
 }
 
 .section-two .container .inner-more .inner-up .add-feed{
-    font-size: 16px;
+    font-size: 15px;
     background: rgb(0, 81, 255);
     border-radius: 5px;
-    height: 20px;
-    width: 120px;
+    /* height: 20px; */
+    width: 125px;
     text-align: center;
     padding: 5px;
+    border: none;
+    color: white;
 }
 
 .section-two .container .inner-more .inner-up .edit-profile{
     font-size: 16px;
-    height: 20px;
+    /* height: 20px; */
     background: rgb(74, 74, 75);
     padding: 5px;
     border-radius: 5px;
+    border: none;
+    color: white;
 }
 
 .section-two .container .inner-more .inner-down{
@@ -203,11 +221,13 @@ body{
 .section-two .container .inner-more .inner-down .more{
     font-size: 18px;
     width: 40px;
-    height: 20px;
+    /* height: 20px; */
     padding: 3px;
     background: rgb(74, 74, 75);
     border-radius: 5px;
     text-align: center;
+    border: none;
+    color: white;
 }
 
 hr{
@@ -234,6 +254,14 @@ hr{
     display: flex;
     justify-content: space-around;
     font-size: 18px;
+    /* color:rgba(222, 218, 218, 0.841); */
+    /* border: none; */
+}
+
+.section-three .container .inner-left button{
+    background: none;
+    border: none;
+    font-size: 16px;
     color:rgba(222, 218, 218, 0.841);
 }
 
@@ -241,20 +269,21 @@ hr{
     color: rgb(0, 81, 255);
 }
 
-.section-three .container .inner-left .article hr{ 
+/* .section-three .container .inner-left .article hr{ 
     width: 100%;
     background: rgb(0, 81, 255);
     margin-left: -2%;
     border: 0px;
-}
+} */
 
 .section-three .container .inner-right .inner-more{
-    width: 46px;
-    height: 16px;
+    width: 40px;
+    /* height: 16px; */
     background: rgb(74, 74, 75);
     text-align: center;
-    padding: 5px 0;
+    padding: 6px 0;
     border-radius: 5px;
     margin-right: 4px;
     color: white;
+    border: none;
 }
