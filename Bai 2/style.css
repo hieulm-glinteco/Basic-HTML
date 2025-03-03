@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    background: rgb(36, 37, 38);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.header{
+    z-index: 10;
+}
+
+.header .inner-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header .inner-wrap .inner-logo-search{
+    display: flex;
+    justify-content: start;
+    width: 25%;
+}
+
+.header .inner-wrap .inner-logo-search a i{
+    font-size: 36px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.header .inner-wrap .inner-logo-search .inner-search{
+    background: rgb(74, 74, 75);
+    border-radius: 16px;
+    width: 80%;
+    padding: 6px;
+    color: white;
+}
+
+.header .inner-wrap .inner-logo-search .inner-search input{
+    background: rgb(74, 74, 75);
+    border: none;
+    color: white;
+    width: 80%;
+    padding: 5px;
+    outline: none;
+}
+
+.header .inner-wrap .inner-menu{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    font-size: 32px;
+}
+
+.header .inner-wrap .inner-menu a i{
+    color: black;
+}
+
+.header .inner-wrap .inner-more{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+}
+
+.header .inner-wrap .inner-more .more-menu{
+    width: 36px;
+    height: 36px;
+    background: rgb(74, 74, 75);
+    border-radius: 50%;
+    /* overflow: hidden; */
+    text-align: center;
+    padding: 5px;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+
+.header .inner-wrap .inner-more .more-menu:hover{
+    border-radius: 50%;
+    background: rgb(74, 74, 255);
+    cursor: pointer;
+}
+
+.button:hover{
+    border-radius: 50%;
+    background: rgb(74, 74, 255);
+    cursor: pointer;
+
+    /* color: blue; */
+}
+
+.header .inner-wrap .inner-more .image-avatar{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: center;
+    border: none;
+    padding: 0 0;
+}
+
+
+.section-one{
+    width: 60%;
+    height: 300px;
+    background: black;
+    margin-left: 20%;
+    /* border-radius: 8px; */
+    margin-top: -15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.section-one .container .background{
+    position: relative;
+    height: 300px;
+}
+
+.section-one .container .background .button-add-background{
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    position: absolute;
+    background: white;
+    width: 20%;
+    height: 10%;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.section-two{
+    width: 60%;
+    padding: 0 20%;
+}
+
+.section-two .container{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.section-two .container .profile{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    position: relative;
+}
+
+/* .section-two .container .profile .avatar{
+    width: 150px;
+    height: 150px;
+} */
+
+.section-two .container .profile .avatar img{
+    margin-left: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -30px;
+}
+
+.section-two .container .profile .avatar .camera {
+    border-radius: 50%;
+    background: rgb(74, 74, 75); 
+    width: 36px;
+    height: 36px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    /* padding: 4px; */
+    position: absolute;
+    bottom: -85%;
+    right: 45%;
+    border: none;
+}
+
+.section-two .container .profile .name h3{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.section-two .container .profile .name span{
+    color: rgba(222, 218, 218, 0.841);
+}
+
+.section-two .container .inner-more{
+    width: 40%;
+    color: white;
+    position: relative;
+}
+
+.section-two .container .inner-more .inner-up{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-two .container .inner-more .inner-up .add-feed{
+    font-size: 15px;
+    background: rgb(0, 81, 255);
+    border-radius: 5px;
+    /* height: 20px; */
+    width: 125px;
+    text-align: center;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+.section-two .container .inner-more .inner-up .edit-profile{
+    font-size: 16px;
+    /* height: 20px; */
+    background: rgb(74, 74, 75);
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
+.section-two .container .inner-more .inner-down{
+    position: absolute;
+    bottom: -18px;
+    right: 5px;
+}
+
+.section-two .container .inner-more .inner-down .more{
+    font-size: 18px;
+    width: 40px;
+    /* height: 20px; */
+    padding: 3px;
+    background: rgb(74, 74, 75);
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    color: white;
+}
+
+hr{
+    width: 60%;
+    margin-left: 20%;
+    background: rgb(74, 74, 75);
+    margin-top: 5%;
+    height: 2px;
+    border: 0px;
+}
+
+.section-three{
+    width: 60%;
+    padding: 0 20%;
+}
+
+.section-three .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-three .container .inner-left{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    /* color:rgba(222, 218, 218, 0.841); */
+    /* border: none; */
+}
+
+.section-three .container .inner-left button{
+    background: none;
+    border: none;
+    font-size: 16px;
+    color:rgba(222, 218, 218, 0.841);
+}
+
+.section-three .container .inner-left button:hover{
+    color: rgb(0, 81, 255);
+    /* transform: scale(1.1); */
+}
+
+/* .section-three .container .inner-left .article{
+    color: rgb(0, 81, 255);
+} */
+
+/* .section-three .container .inner-left .article hr{ 
+    width: 100%;
+    background: rgb(0, 81, 255);
+    margin-left: -2%;
+    border: 0px;
+} */
+
+.section-three .container .inner-right .inner-more{
+    width: 40px;
+    /* height: 16px; */
+    background: rgb(74, 74, 75);
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 5px;
+    margin-right: 4px;
+    color: white;
+    border: none;
+}
