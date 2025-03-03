@@ -282,7 +282,7 @@ hr{
 
 .section-three .container .inner-left button:hover{
     color: rgb(0, 81, 255);
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 /* .section-three .container .inner-left .article{
