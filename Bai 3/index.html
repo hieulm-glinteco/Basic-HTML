@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <script src="../bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <div class="container header bg-white">
+        <div class="inner-one">
+            <button class="btn menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="offcanvas offcanvas-start" id="offcanvas-menu">
+                <div class="offcanvas-header ps-16 pe-0 pt-16">
+                    <button class="btn btn-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <button class="btn btn-logo">
+                        <img src="image/youtube-svgrepo-com.svg" alt="">
+                        <sup>VN</sup>
+                    </button>
+                </div>
+                <div class="offcanvas-body px-16 pt-16">
+                    <ul class="px-0 py-0">
+                        <li>
+                            <button class="btn' btn-main">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Trang chủ</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-play"></i>
+                                <span>Shorts</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-tv"></i>
+                                <span>Kênh đăng ký</span>
+                            </button>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <button class="btn">
+                                <h4>Bạn</h4>
+                                <i></i>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-clock-rotate-left"></i>
+                                <span>Video đã xem</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-list-check"></i>
+                                <span>Danh sách phát</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-tv"></i>
+                                <span>Video của bạn</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-regular fa-clock"></i>
+                                <span>Xem sau</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-regular fa-thumbs-up"></i>
+                                <span>Video đã thích</span>
+                            </button>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <button class="btn">
+                                <h4>Kênh đăng ký</h4>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <img src="image/cute.jpg" alt="">
+                                <span>Little Fox</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <img src="image/cute.jpg" alt="">
+                                <span>28tech</span>
+                            </button>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <button class="btn">
+                                <h4>Khám phá</h4>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-fire"></i>
+                                <span>Thịnh hành</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-music"></i>
+                                <span>Âm nhạc</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>Trò chơi</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-regular fa-newspaper"></i>
+                                <span>Tin tức</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-trophy"></i>
+                                <span>Thể thao</span>
+                            </button>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-brands fa-youtube"></i>
+                                <span>YouTube Premium</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-brands fa-square-youtube"></i>
+                                <span>YouTube Studio</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-brands fa-youtube"></i>
+                                <span>YouTube Music</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-brands fa-square-youtube"></i>
+                                <span>YouTube Kids</span>
+                            </button>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-gear"></i>
+                                <span>Cài đặt</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-regular fa-flag"></i>
+                                <span>Nhật ký báo cáo</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-regular fa-circle-question"></i>
+                                <span>Trợ giúp</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn">
+                                <i class="fa-solid fa-circle-exclamation"></i>
+                                <span>Gợi ý kiến phản hồi</span>
+                            </button>
+                        </li>
+                        <li class="dropdown-divider"></li>
+                        <li class="content-li">
+                            <div>
+                                <a herf="#">Giới thiệu </a>
+                                <a herf="#">Báo chí </a>
+                                <a herf="#">Bản quyền</a>
+                            </div>
+                            <div>
+                                <a herf="#">Liên hệ với chúng tôi</a>
+                            </div>
+                            <div>
+                                <a herf="#">Người sáng tạo </a>
+                                <a herf="#">Quảng cáo</a>
+                            </div>
+                            <div>
+                                <a herf="#">Nhà phát triển</a>
+                            </div>
+                            <br>
+                            <div>
+                                <a herf="#">Điều khoản </a>
+                                <a herf="#">Quyền riêng tư</a>
+                            </div>
+                            <div>
+                                <a herf="#">Chính sách và an toàn</a>
+                            </div>
+                            <div>
+                                <a herf="#">Cách YouTube hoạt động</a>
+                            </div>
+                            <div>
+                                <a herf="#">Thử các tính năng mới</a>
+                            </div>
+                            <br>
+                            <div>
+                                <span>© 2025 Google LLC</span>
+                            </div>
+                        </li>
+                </div>
+            </div>
+            <button class="logo">
+                <img src="image/youtube-svgrepo-com.svg">
+                <sup>VN</sup>
+            </button>
+        </div>
+
+        <div class="inner-two">
+            <div class="btn-group search">
+                <div class="search-input">
+                    <input type="text" placeholder="Tìm kiếm">
+                    <i class="fa-solid fa-keyboard"></i>
+                </div>
+                <button class="btn search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+
+            <button class="btn micro">
+                <i class="fa-solid fa-microphone"></i>
+            </button>
+        </div>
+        <div class="inner-three">
+            <div class="btn create">
+                <i class="fa-solid fa-plus"></i>
+                <span>Tạo</span>
+            </div>
+            <div class="btn notification">
+                <i class="fa-regular fa-bell"></i>
+            </div>
+            <img src="image/cute.jpg" alt="Avatar" width="40px" height="40px">
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="main-left bg-white">
+            <button class="btn">
+                <i class="fa-solid fa-house"></i>
+                <span>Trang chủ</span>
+            </button>
+            <button class="btn">
+                <i class="fa-solid fa-play"></i>
+                <span>Shorts</span>
+            </button>
+            <button class="btn">
+                <i class="fa-solid fa-tv"></i>
+                <span>Kênh đăng ký</span>
+            </button>
+            <button class="btn">
+                <i class="fa-regular fa-circle-user"></i>
+                <span>Bạn</span>
+            </button>
+        </div>
+
+        <div class="container main-right">
+            <div class="container main-r-up bg-white">
+                <button class="btn all">Tất cả</button>
+                <button class="btn">Trò chơi</button>
+                <button class="btn">Tin tức</button>
+                <button class="btn">Âm nhạc</button>
+                <button class="btn">Danh sách kết hợp</button>
+                <button class="btn">Toán học</button>
+                <button class="btn">Trò chơi hành động phiêu lưu</button>
+                <button class="btn">Hoạt họa</button>
+                <button class="btn">Mới tải lên gần đây</button>
+                <button class="btn">Gần đây</button>
+            </div>
+
+            <div class="container main-r-down">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <video src="image/video.mp4" width="100%" height="auto"></video>
+                        <div class="video-down">
+                            <img src="image/cute.jpg" alt="YouTuber Avatar">
+                            <div class="video-content">
+                                <h3>Video ve con cao</h3>
+                                <span class="youtuber-name">Little Fox</span>
+                                <div class="view-time">
+                                    <span class="viewer">205 người xem</span>
+                                    <span class="time-up">50 phút trước</span>
+                                </div>
+                            </div>
+                            <div class="video-more">
+                                <i class="fa-solid fa-ellipsis-vertical" data-bs-toggle="dropdown"></i>
+                                <div class="dropdown-menu">
+                                    <ul>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-list-check"></i>
+                                                <span>Thêm vào danh sách chờ</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-clock"></i>
+                                                <span>Lưu vào danh sách Xem sau</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-bookmark"></i>
+                                                <span>Lưu vào danh sách phát</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-arrow-down"></i>
+                                                <span>Tải xuống</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-share"></i>
+                                                <span>Chia sẻ</span>
+                                            </button>
+                                        </li>
+                                        <li class="dropdown-divider"></li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-xmark"></i>
+                                                <span>Không quan tâm</span>
+                                            </button>
+                                        </li>
+                                        <li>
+                                            <button class="btn">
+                                                <i class="fa-solid fa-circle-minus"></i>
+                                                <span>Không đề xuất kênh này</span>
+                                            </button>
+                                        </li><li>
+                                            <button class="btn">
+                                                <i class="fa-regular fa-flag"></i>
+                                                <span>Báo cáo vi phạm</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
