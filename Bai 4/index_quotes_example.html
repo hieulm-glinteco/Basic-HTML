@@ -26,11 +26,12 @@
         <ul class="d-flex">
           <li class="nav-item">
             <button class="rounded-pill btn-home"></button>
-            <a href="#" class="active text-decoration-none home">Home</a>
+            <a href="http://127.0.0.1:5500/Bai%204/index_home.html" class="active text-decoration-none home">Home</a>
           </li>
           <li class="nav-item">
             <button class="btn-quote rounded-pill"></button>
-            <a href="#" class="text-decoration-none quote text-white">Quotes</a>
+            <a href="http://127.0.0.1:5500/Bai%204/index_quotes_example.html"
+              class="text-decoration-none quote text-white">Quotes</a>
           </li>
         </ul>
       </nav>
@@ -89,10 +90,12 @@
           </div>
 
 
-          <button class="interset d-flex align-items-center justify-content-between">
-            <img src="image/star-1.svg" alt="">
-            <span>Interest</span>
-          </button>
+          <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">
+            <button class="interset d-flex align-items-center justify-content-between">
+              <img src="image/star-1.svg" alt="">
+              <span>Interest</span>
+            </button>
+          </a>
         </div>
       </div>
 
@@ -177,7 +180,7 @@
               </button>
             </h2>
             <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-              data-bs-parent="#accordiTwoxample">
+              data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <h2>Explain:</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ex dolor
@@ -200,7 +203,7 @@
               </button>
             </h2>
             <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
-              data-bs-parent="#accordiThreexample">
+              data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <h2>Explain:</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ex dolor
@@ -223,7 +226,7 @@
               </button>
             </h2>
             <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
-              data-bs-parent="#accordiFourxample">
+              data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <h2>Explain:</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ex dolor
@@ -243,11 +246,13 @@
 
     <div class="similar-quote d-flex flex-column">
       <div class="similar-title d-flex justify-content-between align-items-center">
-        <h2>Similar Quotes</h2>
-        <button class="btn d-flex align-items-center justify-content-between">
-          <span>View more</span>
-          <img src="image/arrow-circle-right.svg" alt="">
-        </button>
+        <h2 class="my-0">Similar Quotes</h2>
+        <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">
+          <button class="btn d-flex align-items-center justify-content-between">
+            <span>View more</span>
+            <img src="image/arrow-circle-right.svg" alt="">
+          </button>
+        </a>
       </div>
 
       <div class="similar-content w-100">
@@ -264,11 +269,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
 
@@ -284,11 +323,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
 
@@ -304,11 +377,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
 
@@ -324,11 +431,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
         </div>
@@ -337,11 +478,13 @@
 
     <div class="other-ralated similar-quote d-flex flex-column">
       <div class="other-title similar-title d-flex justify-content-between align-items-center">
-        <h2>Other related quotes</h2>
-        <button class="btn d-flex align-items-center justify-content-between">
-          <span>View more</span>
-          <img src="image/arrow-circle-right.svg" alt="">
-        </button>
+        <h2 class="my-0">Other related quotes</h2>
+        <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">
+          <button class="btn d-flex align-items-center justify-content-between">
+            <span>View more</span>
+            <img src="image/arrow-circle-right.svg" alt="">
+          </button>
+        </a>
       </div>
       <div class="other-content similar-content w-100">
         <div class="row w-100 d-flex justify-content-between ms-0">
@@ -357,11 +500,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
 
@@ -377,11 +554,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
 
@@ -397,11 +608,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
 
@@ -417,11 +662,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
         </div>

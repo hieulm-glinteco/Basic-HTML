@@ -26,11 +26,13 @@
         <ul class="d-flex">
           <li class="nav-item">
             <button class="bg-white rounded-pill active"></button>
-            <a href="#" class="active text-decoration-none text-white home">Home</a>
+            <a href="http://127.0.0.1:5500/Bai%204/index_home.html"
+              class="active text-decoration-none text-white home">Home</a>
           </li>
           <li class="nav-item">
             <button class="btn-quote rounded-pill"></button>
-            <a href="#" class="text-decoration-none quote">Quotes</a>
+            <a href="http://127.0.0.1:5500/Bai%204/index_quotes_example.html"
+              class="text-decoration-none quote">Quotes</a>
           </li>
         </ul>
       </nav>
@@ -71,8 +73,8 @@
       <div class="offcanvas" data-bs-scroll="true" tabindex="-1" id="demo">
         <div class="offcanvas-header">
           <h2 class="offcanvas-title">Choose topic</h2>
-          <button class="btn-close btn-close-white bg-info button-close" data-bs-dimiss="offcanvas"
-            aria-label="Close"></button>
+          <button type="button" class="btn-close btn-close-white bg-info rounded-circle button-close"
+            data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="offcanvas-body">
           <div class="row">
@@ -192,43 +194,45 @@
 
     <div class="result">
       <div class="row d-flex justify-content-between">
-        <div class="flashcard col-3">
-          <div class="col-3 front-card d-flex justify-content-around flex-column">
-            <div class="card-content">
-              <p>It is too late to lock the stable when the horse is stolen</p>
+        <div class="card col-3">
+          <div class="front-card">
+            <div class="front-content">
+              <p>It is to late to lock the stable when the horse is stolen</p>
             </div>
 
-            <div class="card-tag d-flex justify-content-start">
-              <button class="h-100 d-flex align-items-center">Life</button>
-              <button class="h-100 d-flex align-items-center">History</button>
-              <button class="h-100 d-flex align-items-center">Funny</button>
+            <div class="front-tag d-flex">
+              <button>Life</button>
+              <button>History</button>
+              <button>Funny</button>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+            <div class="front-bottom d-flex justify-content-between">
+              <div class="front-share">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
-              </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              </div>
+              <button class="h-100 d-flex align-items-center">Detail</button>
             </div>
           </div>
 
-          <div class="col-3 back-card d-flex justify-content-around flex-column">
-            <div class="back-card-content d-flex">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias vel quas iure, nihil sunt
-                velit
-                beatae repellendus, consequuntur reprehenderit sed architecto. Error fuga quis illum voluptatem
-                recusandae quas tempore!</p>
-              <img src="image/Frame 1.svg" alt="" role="button">
+          <div class="back-card">
+            <div class="back-content d-flex">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil tempore repellendus
+                cupiditate
+                provident assumenda, minus est odio voluptatum saepe reiciendis aliquid ab corporis esse inventore,
+                asperiores
+                iure itaque maiores.</p>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <img src="image/Frame 1.svg" alt="">
+              </a>
+
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown"
-                role="button">
+            <div class="back-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/link-2.svg" alt="">
                 <span>Share</span>
               </button>
-
               <ul class="dropdown-menu dropdown-menu-start">
                 <li class="d-flex justify-content-between align-items-center">
                   <button class="w-100 py-0 d-flex align-items-center">
@@ -261,48 +265,51 @@
                   </button>
                 </li>
               </ul>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <button>Detail</button>
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="flashcard col-3">
-          <div class="col-3 front-card d-flex justify-content-around flex-column">
-            <div class="card-content">
-              <p>It is too late to lock the stable when the horse is stolen</p>
+        <div class="card col-3">
+          <div class="front-card">
+            <div class="front-content">
+              <p>It is to late to lock the stable when the horse is stolen</p>
             </div>
 
-            <div class="card-tag d-flex justify-content-start">
-              <button class="h-100 d-flex align-items-center">Life</button>
-              <button class="h-100 d-flex align-items-center">History</button>
-              <button class="h-100 d-flex align-items-center">Funny</button>
+            <div class="front-tag d-flex">
+              <button>Life</button>
+              <button>History</button>
+              <button>Funny</button>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+            <div class="front-bottom d-flex justify-content-between">
+              <div class="front-share">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
-              </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              </div>
+              <button class="h-100 d-flex align-items-center">Detail</button>
             </div>
           </div>
 
-          <div class="col-3 back-card d-flex justify-content-around flex-column">
-            <div class="back-card-content d-flex">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias vel quas iure, nihil sunt
-                velit
-                beatae repellendus, consequuntur reprehenderit sed architecto. Error fuga quis illum voluptatem
-                recusandae quas tempore!</p>
-              <img src="image/Frame 1.svg" alt="" role="button">
+          <div class="back-card">
+            <div class="back-content d-flex">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil tempore repellendus
+                cupiditate
+                provident assumenda, minus est odio voluptatum saepe reiciendis aliquid ab corporis esse inventore,
+                asperiores
+                iure itaque maiores.</p>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <img src="image/Frame 1.svg" alt="">
+              </a>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown"
-                role="button">
+            <div class="back-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/link-2.svg" alt="">
                 <span>Share</span>
               </button>
-
               <ul class="dropdown-menu dropdown-menu-start">
                 <li class="d-flex justify-content-between align-items-center">
                   <button class="w-100 py-0 d-flex align-items-center">
@@ -335,48 +342,51 @@
                   </button>
                 </li>
               </ul>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <button>Detail</button>
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="flashcard col-3">
-          <div class="col-3 front-card d-flex justify-content-around flex-column">
-            <div class="card-content">
-              <p>It is too late to lock the stable when the horse is stolen</p>
+        <div class="card col-3">
+          <div class="front-card">
+            <div class="front-content">
+              <p>It is to late to lock the stable when the horse is stolen</p>
             </div>
 
-            <div class="card-tag d-flex justify-content-start">
-              <button class="h-100 d-flex align-items-center">Life</button>
-              <button class="h-100 d-flex align-items-center">History</button>
-              <button class="h-100 d-flex align-items-center">Funny</button>
+            <div class="front-tag d-flex">
+              <button>Life</button>
+              <button>History</button>
+              <button>Funny</button>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+            <div class="front-bottom d-flex justify-content-between">
+              <div class="front-share">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
-              </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              </div>
+              <button class="h-100 d-flex align-items-center">Detail</button>
             </div>
           </div>
 
-          <div class="col-3 back-card d-flex justify-content-around flex-column">
-            <div class="back-card-content d-flex">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias vel quas iure, nihil sunt
-                velit
-                beatae repellendus, consequuntur reprehenderit sed architecto. Error fuga quis illum voluptatem
-                recusandae quas tempore!</p>
-              <img src="image/Frame 1.svg" alt="" role="button">
+          <div class="back-card">
+            <div class="back-content d-flex">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil tempore repellendus
+                cupiditate
+                provident assumenda, minus est odio voluptatum saepe reiciendis aliquid ab corporis esse inventore,
+                asperiores
+                iure itaque maiores.</p>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <img src="image/Frame 1.svg" alt="">
+              </a>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown"
-                role="button">
+            <div class="back-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/link-2.svg" alt="">
                 <span>Share</span>
               </button>
-
               <ul class="dropdown-menu dropdown-menu-start">
                 <li class="d-flex justify-content-between align-items-center">
                   <button class="w-100 py-0 d-flex align-items-center">
@@ -409,48 +419,51 @@
                   </button>
                 </li>
               </ul>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <button>Detail</button>
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="flashcard col-3">
-          <div class="col-3 front-card d-flex justify-content-around flex-column">
-            <div class="card-content">
-              <p>It is too late to lock the stable when the horse is stolen</p>
+        <div class="card col-3">
+          <div class="front-card">
+            <div class="front-content">
+              <p>It is to late to lock the stable when the horse is stolen</p>
             </div>
 
-            <div class="card-tag d-flex justify-content-start">
-              <button class="h-100 d-flex align-items-center">Life</button>
-              <button class="h-100 d-flex align-items-center">History</button>
-              <button class="h-100 d-flex align-items-center">Funny</button>
+            <div class="front-tag d-flex">
+              <button>Life</button>
+              <button>History</button>
+              <button>Funny</button>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+            <div class="front-bottom d-flex justify-content-between">
+              <div class="front-share">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
-              </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              </div>
+              <button class="h-100 d-flex align-items-center">Detail</button>
             </div>
           </div>
 
-          <div class="col-3 back-card d-flex justify-content-around flex-column">
-            <div class="back-card-content d-flex">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias vel quas iure, nihil sunt
-                velit
-                beatae repellendus, consequuntur reprehenderit sed architecto. Error fuga quis illum voluptatem
-                recusandae quas tempore!</p>
-              <img src="image/Frame 1.svg" alt="" role="button">
+          <div class="back-card">
+            <div class="back-content d-flex">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil tempore repellendus
+                cupiditate
+                provident assumenda, minus est odio voluptatum saepe reiciendis aliquid ab corporis esse inventore,
+                asperiores
+                iure itaque maiores.</p>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <img src="image/Frame 1.svg" alt="">
+              </a>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown"
-                role="button">
+            <div class="back-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/link-2.svg" alt="">
                 <span>Share</span>
               </button>
-
               <ul class="dropdown-menu dropdown-menu-start">
                 <li class="d-flex justify-content-between align-items-center">
                   <button class="w-100 py-0 d-flex align-items-center">
@@ -483,50 +496,53 @@
                   </button>
                 </li>
               </ul>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <button>Detail</button>
+              </a>
             </div>
           </div>
         </div>
       </div>
 
       <div class="row d-flex justify-content-between">
-        <div class="flashcard col-3">
-          <div class="col-3 front-card d-flex justify-content-around flex-column">
-            <div class="card-content">
-              <p>It is too late to lock the stable when the horse is stolen</p>
+        <div class="card col-3">
+          <div class="front-card">
+            <div class="front-content">
+              <p>It is to late to lock the stable when the horse is stolen</p>
             </div>
 
-            <div class="card-tag d-flex justify-content-start">
-              <button class="h-100 d-flex align-items-center">Life</button>
-              <button class="h-100 d-flex align-items-center">History</button>
-              <button class="h-100 d-flex align-items-center">Funny</button>
+            <div class="front-tag d-flex">
+              <button>Life</button>
+              <button>History</button>
+              <button>Funny</button>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+            <div class="front-bottom d-flex justify-content-between">
+              <div class="front-share">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
-              </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              </div>
+              <button class="h-100 d-flex align-items-center">Detail</button>
             </div>
           </div>
 
-          <div class="col-3 back-card d-flex justify-content-around flex-column">
-            <div class="back-card-content d-flex">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias vel quas iure, nihil sunt
-                velit
-                beatae repellendus, consequuntur reprehenderit sed architecto. Error fuga quis illum voluptatem
-                recusandae quas tempore!</p>
-              <img src="image/Frame 1.svg" alt="" role="button">
+          <div class="back-card">
+            <div class="back-content d-flex">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil tempore repellendus
+                cupiditate
+                provident assumenda, minus est odio voluptatum saepe reiciendis aliquid ab corporis esse inventore,
+                asperiores
+                iure itaque maiores.</p>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <img src="image/Frame 1.svg" alt="">
+              </a>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown"
-                role="button">
+            <div class="back-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/link-2.svg" alt="">
                 <span>Share</span>
               </button>
-
               <ul class="dropdown-menu dropdown-menu-start">
                 <li class="d-flex justify-content-between align-items-center">
                   <button class="w-100 py-0 d-flex align-items-center">
@@ -559,48 +575,51 @@
                   </button>
                 </li>
               </ul>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <button>Detail</button>
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="flashcard col-3">
-          <div class="col-3 front-card d-flex justify-content-around flex-column">
-            <div class="card-content">
-              <p>It is too late to lock the stable when the horse is stolen</p>
+        <div class="card col-3">
+          <div class="front-card">
+            <div class="front-content">
+              <p>It is to late to lock the stable when the horse is stolen</p>
             </div>
 
-            <div class="card-tag d-flex justify-content-start">
-              <button class="h-100 d-flex align-items-center">Life</button>
-              <button class="h-100 d-flex align-items-center">History</button>
-              <button class="h-100 d-flex align-items-center">Funny</button>
+            <div class="front-tag d-flex">
+              <button>Life</button>
+              <button>History</button>
+              <button>Funny</button>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+            <div class="front-bottom d-flex justify-content-between">
+              <div class="front-share">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
-              </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              </div>
+              <button class="h-100 d-flex align-items-center">Detail</button>
             </div>
           </div>
 
-          <div class="col-3 back-card d-flex justify-content-around flex-column">
-            <div class="back-card-content d-flex">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias vel quas iure, nihil sunt
-                velit
-                beatae repellendus, consequuntur reprehenderit sed architecto. Error fuga quis illum voluptatem
-                recusandae quas tempore!</p>
-              <img src="image/Frame 1.svg" alt="" role="button">
+          <div class="back-card">
+            <div class="back-content d-flex">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil tempore repellendus
+                cupiditate
+                provident assumenda, minus est odio voluptatum saepe reiciendis aliquid ab corporis esse inventore,
+                asperiores
+                iure itaque maiores.</p>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <img src="image/Frame 1.svg" alt="">
+              </a>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown"
-                role="button">
+            <div class="back-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/link-2.svg" alt="">
                 <span>Share</span>
               </button>
-
               <ul class="dropdown-menu dropdown-menu-start">
                 <li class="d-flex justify-content-between align-items-center">
                   <button class="w-100 py-0 d-flex align-items-center">
@@ -633,48 +652,51 @@
                   </button>
                 </li>
               </ul>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <button>Detail</button>
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="flashcard col-3">
-          <div class="col-3 front-card d-flex justify-content-around flex-column">
-            <div class="card-content">
-              <p>It is too late to lock the stable when the horse is stolen</p>
+        <div class="card col-3">
+          <div class="front-card">
+            <div class="front-content">
+              <p>It is to late to lock the stable when the horse is stolen</p>
             </div>
 
-            <div class="card-tag d-flex justify-content-start">
-              <button class="h-100 d-flex align-items-center">Life</button>
-              <button class="h-100 d-flex align-items-center">History</button>
-              <button class="h-100 d-flex align-items-center">Funny</button>
+            <div class="front-tag d-flex">
+              <button>Life</button>
+              <button>History</button>
+              <button>Funny</button>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+            <div class="front-bottom d-flex justify-content-between">
+              <div class="front-share">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
-              </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              </div>
+              <button class="h-100 d-flex align-items-center">Detail</button>
             </div>
           </div>
 
-          <div class="col-3 back-card d-flex justify-content-around flex-column">
-            <div class="back-card-content d-flex">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias vel quas iure, nihil sunt
-                velit
-                beatae repellendus, consequuntur reprehenderit sed architecto. Error fuga quis illum voluptatem
-                recusandae quas tempore!</p>
-              <img src="image/Frame 1.svg" alt="" role="button">
+          <div class="back-card">
+            <div class="back-content d-flex">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil tempore repellendus
+                cupiditate
+                provident assumenda, minus est odio voluptatum saepe reiciendis aliquid ab corporis esse inventore,
+                asperiores
+                iure itaque maiores.</p>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <img src="image/Frame 1.svg" alt="">
+              </a>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown"
-                role="button">
+            <div class="back-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/link-2.svg" alt="">
                 <span>Share</span>
               </button>
-
               <ul class="dropdown-menu dropdown-menu-start">
                 <li class="d-flex justify-content-between align-items-center">
                   <button class="w-100 py-0 d-flex align-items-center">
@@ -707,48 +729,51 @@
                   </button>
                 </li>
               </ul>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <button>Detail</button>
+              </a>
             </div>
           </div>
         </div>
 
-        <div class="flashcard col-3">
-          <div class="col-3 front-card d-flex justify-content-around flex-column">
-            <div class="card-content">
-              <p>It is too late to lock the stable when the horse is stolen</p>
+        <div class="card col-3">
+          <div class="front-card">
+            <div class="front-content">
+              <p>It is to late to lock the stable when the horse is stolen</p>
             </div>
 
-            <div class="card-tag d-flex justify-content-start">
-              <button class="h-100 d-flex align-items-center">Life</button>
-              <button class="h-100 d-flex align-items-center">History</button>
-              <button class="h-100 d-flex align-items-center">Funny</button>
+            <div class="front-tag d-flex">
+              <button>Life</button>
+              <button>History</button>
+              <button>Funny</button>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+            <div class="front-bottom d-flex justify-content-between">
+              <div class="front-share">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
-              </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              </div>
+              <button class="h-100 d-flex align-items-center">Detail</button>
             </div>
           </div>
-          dreo
-          <div class="col-3 back-card d-flex justify-content-around flex-column">
-            <div class="back-card-content d-flex">
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo molestias vel quas iure, nihil sunt
-                velit
-                beatae repellendus, consequuntur reprehenderit sed architecto. Error fuga quis illum voluptatem
-                recusandae quas tempore!</p>
-              <img src="image/Frame 1.svg" alt="" role="button">
+
+          <div class="back-card">
+            <div class="back-content d-flex">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit nihil tempore repellendus
+                cupiditate
+                provident assumenda, minus est odio voluptatum saepe reiciendis aliquid ab corporis esse inventore,
+                asperiores
+                iure itaque maiores.</p>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <img src="image/Frame 1.svg" alt="">
+              </a>
             </div>
 
-            <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown"
-                role="button">
+            <div class="back-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/link-2.svg" alt="">
                 <span>Share</span>
               </button>
-
               <ul class="dropdown-menu dropdown-menu-start">
                 <li class="d-flex justify-content-between align-items-center">
                   <button class="w-100 py-0 d-flex align-items-center">
@@ -781,7 +806,9 @@
                   </button>
                 </li>
               </ul>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html">
+                <button>Detail</button>
+              </a>
             </div>
           </div>
         </div>
@@ -809,7 +836,7 @@
             <p>Interest</p>
             <span class="badge text-dark text-center">20</span>
           </div>
-          <button class="btn-close"></button>
+          <button class="btn-close" data-bs-dismiss="offcanvas"></button>
         </div>
         <div class="interest-content">
           <div class="col-3 front-card d-flex justify-content-around flex-column">
@@ -824,11 +851,45 @@
             </div>
 
             <div class="card-bottom d-flex justify-content-between">
-              <button class="card-share h-100 d-flex align-items-center">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
                 <img src="image/down.svg" alt="">
                 <span>Share</span>
               </button>
-              <button class="card-detail h-100 d-flex align-items-center">Detail</button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
             </div>
           </div>
         </div>

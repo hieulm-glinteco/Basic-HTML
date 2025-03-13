@@ -300,10 +300,15 @@
 
 .example .accordion .accordion-item .accordion-button {
     padding-left: 80px;
+    border-radius: 4px;
+    box-shadow: none;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .example .accordion .accordion-item .accordion-button::after {
-    margin-left: -232px;
+    margin-left: -288px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -335,6 +340,7 @@
     width: 1148px;
     height: 44px;
 }
+
 
 /*Similar quotes*/
 .similar-quote{
@@ -383,6 +389,7 @@
 .front-card .card-tag{
     width: 316px;
     height: 23px;
+    font-size: 12px;
 }
 
 .front-card .card-tag button{
@@ -395,10 +402,31 @@
 .front-card .card-bottom{
     width: 316px;
     height: 18px;
+    font-size: 12px;
 }
 
 .front-card .card-bottom button{
     border: none;
     background: none;
+    color: #4E4FEB;
+}
+
+.card-bottom ul {
+    min-width: 94px;
+    min-height: 178px;
+    padding: 0 0;
+}
+
+.card-bottom ul li {
+    margin: 15px 0;
+}
+
+.card-bottom ul li span {
+    font-size: 12px;
+    align-items: center;
+    height: 100%;
+}
+
+.card-bottom  a{
     color: #4E4FEB;
 }

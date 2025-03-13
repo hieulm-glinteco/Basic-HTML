@@ -280,130 +280,114 @@
 
 /*Flashcard*/
 
-.flashcard {
+.card {
     width: 340px;
     height: 200px;
-    background-color: #f8f9fa;
-    border-radius: 10px;
-    transform-style: preserve-3d;
-    transition: transform 1s linear;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    color: #333;
-    position: relative;
+    padding: 0 0;
 }
 
 .front-card {
-    position: absolute;
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.back-card {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transform: rotateY(180deg);
-    top: 0;
-    left: 0;
-}
-
-.flashcard:hover {
-    transform: rotateY(180deg);
-}
-
-.col-3 {
-    width: 340px;
-    height: 200px;
-    border-radius: 6px;
-    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     padding: 0 12px;
-    margin-bottom: 12px;
+    border-radius: 4px;
 }
 
-.front-card .card-content {
+.front-card .front-content {
     width: 316px;
     height: 111px;
     font-size: 20px;
 }
 
-.front-card .card-tag {
+.front-card .front-tag {
     width: 316px;
     height: 23px;
     font-size: 12px;
 }
 
-.front-card .card-tag button {
+.front-card .front-tag button {
     border: none;
     margin-right: 10px;
     background: #D7E6FF;
     border-radius: 4px;
 }
 
-.front-card .card-bottom {
+.front-card .front-bottom {
     width: 316px;
     height: 18px;
     font-size: 12px;
 }
 
-.front-card .card-bottom button {
+.front-card .front-bottom button {
     border: none;
     background: none;
     color: #4E4FEB;
 }
 
 .back-card {
-    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+    padding: 0 12px;
     background: #4E4FEB;
-    backface-visibility: hidden;
+    border-radius: 4px;
 }
 
-.back-card .back-card-content {
+.back-card .back-content {
     font-size: 14px;
     height: 138px;
     color: white;
 }
 
-.back-card .back-card-content img {
+.back-card .back-content img {
     width: 30px;
     height: 30px;
 }
 
-.back-card .card-bottom {
+.back-card .back-bottom {
     width: 316px;
-    height: 26px;
+    height: 18px;
     font-size: 12px;
 }
 
-.back-card .card-bottom ul {
-    min-width: 94px;
-    min-height: 178px;
-    padding: 0 0;
-}
-
-.back-card .card-bottom ul li {
-    margin: 15px 0;
-}
-
-.back-card .card-bottom ul li span {
-    font-size: 12px;
-    align-items: center;
-    height: 100%;
-}
-
-.back-card .card-bottom button {
+.back-card .back-bottom button {
     border: none;
     background: none;
     color: white;
 }
 
-.back-card .card-bottom .card-share {
+.back-card .back-bottom .card-share {
     background: #626FE5;
     border-radius: 3px;
+}
+
+.back-card .back-bottom ul {
+    min-width: 94px;
+    min-height: 178px;
+    padding: 0 0;
+}
+
+.back-card .back-bottom ul li {
+    margin: 15px 0;
+}
+
+.back-card .back-bottom ul li span {
+    font-size: 12px;
+    align-items: center;
+    height: 100%;
+}
+
+.card:hover .front-card {
+    display: none;
+}
+
+.card:hover .back-card {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
 }
 
 
@@ -437,18 +421,18 @@
     padding: 12px;
 }
 
-.interest .interest-header .interest-title{
+.interest .interest-header .interest-title {
     width: 134px;
 }
 
-.interest .interest-header .interest-title p{
+.interest .interest-header .interest-title p {
     font-size: 24px;
     font-weight: 700;
     height: 30px;
     margin-bottom: 12px;
 }
 
-.interest .interest-header .interest-title span{
+.interest .interest-header .interest-title span {
     background: #FFB000;
     border-radius: 20px;
     width: 33px;
@@ -474,6 +458,7 @@
 .interest .front-card .card-tag {
     width: 316px;
     height: 23px;
+    font-size: 12px;
 }
 
 .interest .front-card .card-tag button {
@@ -486,10 +471,31 @@
 .interest .front-card .card-bottom {
     width: 316px;
     height: 18px;
+    font-size: 12px;
 }
 
 .interest .front-card .card-bottom button {
     border: none;
     background: none;
     color: #4E4FEB;
+}
+
+.interest .front-card .card-bottom button a {
+    color: #4E4FEB;
+}
+
+.interest .front-card .card-bottom ul {
+    min-width: 94px;
+    min-height: 178px;
+    padding: 0 0;
+}
+
+.interest .front-card .card-bottom ul li {
+    margin: 15px 0;
+}
+
+.interest .front-card .card-bottom ul li span {
+    font-size: 12px;
+    align-items: center;
+    height: 100%;
 }
