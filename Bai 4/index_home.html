@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+    <link rel="stylesheet" href="../bootstrap.min.css">
+    <script src="../bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style/style_home.css">
+</head>
+
+<body>
+    <div class="container-fluid body-up position-relative">
+        <div class="header d-flex justify-content-between align-items-start">
+            <div class="logo">
+                <img src="image/left-quote-svgrepo-com-1.svg" alt="">
+                <p class="text-white mb-0">Quotes</p>
+            </div>
+
+            <nav class="navbar">
+                <ul class="d-flex">
+                    <li class="nav-item">
+                        <button class="bg-white rounded-pill active"></button>
+                        <a href="http://127.0.0.1:5500/Bai%204/index_home.html"
+                            class="active text-decoration-none text-white home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn-quote rounded-pill"></button>
+                        <a href="http://127.0.0.1:5500/Bai%204/index_quotes_example.html"
+                            class="text-decoration-none quote">Quotes</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="language-select">
+                <img src="image/uk-flag-1444045.jpg" alt="" class="rounded-circle position-relative dropdown-toggle"
+                    data-bs-toggle="dropdown" role="button">
+
+                <ul class="dropdown-menu dropdown-menu-end">
+                    <li>
+                        <button class="btn d-flex w-100 align-items-center first-language">
+                            <img src="image/uk-flag-1444045.jpg" alt="" class="rounded-circle d-flex p-8">
+                            <span>English</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn d-flex w-100">
+                            <img src="image/Co-Vietnam.png" alt="" class="rounded-circle">
+                            <span>Vietnam</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="btn d-flex w-100">
+                            <img src="image/nhatban.jpg" alt="" class="rounded-circle">
+                            <span>Japan</span>
+                        </button>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <h1 class="text-white position-relative">Explore Quote</h1>
+        <div class="search position-relative bg-white d-flex justify-content-between align-items-center">
+            <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+            <input type="text" placeholder="Enter quote you want to search...">
+            <i class="fa-solid fa-layer-group" style="color: #000000;" role="button" data-bs-toggle="offcanvas"
+                data-bs-target="#demo"></i>
+            <div class="offcanvas" data-bs-scroll="true" tabindex="-1" id="demo">
+                <div class="offcanvas-header">
+                    <h2 class="offcanvas-title">Choose topic</h2>
+                    <button type="button" class="btn-close btn-close-white bg-info rounded-circle button-close"
+                        data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <div class="row">
+                        <div class="three-col text-center border-2 ">
+                            <button>Life</button>
+                        </div>
+                        <div class="three-col text-center border-2 " role="button">
+                            <button>History</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Funny</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Literature</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="three-col text-center border-2 ">
+                            <button>Love</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Family</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Sad</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Smile</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="three-col text-center border-2 ">
+                            <button>Father</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Mother</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Study</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Hot</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="three-col text-center border-2 ">
+                            <button>Cool</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Summer</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Success</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Winter</button>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="three-col text-center border-2 ">
+                            <button>Woman</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Men</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Phone</button>
+                        </div>
+                        <div class="three-col text-center border-2 ">
+                            <button>Smart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-down d-flex position-relative align-items-center">
+            <p class="d-flex align-items-center">Enter to search</p>
+            <img src="image/left-3-svgrepo-com.svg" alt="" width="16.5px" height="16px">
+        </div>
+        <img src="image/“.svg" alt="" class="logo-1 position-relative">
+        <img src="image/“-1.svg" alt="" class="logo-2 position-relative">
+
+    </div>
+
+    <div class="confirm position-relative">
+        <p>Glinteco © 2023 All Rights Reserved</p>
+    </div>
+</body>
+
+</html>

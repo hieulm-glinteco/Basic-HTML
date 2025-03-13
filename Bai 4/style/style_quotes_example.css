@@ -1,0 +1,432 @@
+.body {
+    margin: 0 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+.body-up {
+    height: 60px;
+    padding: 0 0;
+    background: #4E4FEB;
+}
+
+/*Header*/
+.header .logo {
+    width: 1%;
+}
+
+.header .logo img {
+    width: 18px;
+    height: 17px;
+    position: relative;
+    top: 6px;
+    left: 35px;
+}
+
+.header .logo p {
+    width: 87px;
+    height: 31px;
+    position: relative;
+    top: -16px;
+    left: 60px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.header nav ul li button {
+    outline: none;
+    border: none;
+    width: 24px;
+    height: 4px;
+    position: relative;
+    top: -11px;
+    left: 0px;
+}
+
+.header nav ul li {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    padding: 0 0;
+    border: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header nav ul li button a {
+    font-size: 14px;
+    font-weight: 400px;
+}
+
+.header nav {
+    width: 165px;
+    height: 38px;
+    position: relative;
+    padding: 0 0;
+    top: 11px;
+}
+
+.header nav ul {
+    width: 100%;
+    padding: 0 0;
+    height: 100%;
+    margin: 0 0;
+}
+
+.header nav ul li .home {
+    color: #909BEC;
+}
+
+.header nav ul li .btn-home {
+    background: #4E4FEB;
+}
+
+.header .language-select img {
+    width: 34px;
+    height: 34px;
+    top: 12px;
+    right: 16px;
+    border: 2px solid #ffffff;
+}
+
+.header .language-select .dropdown-menu-end {
+    min-width: 117px;
+    min-height: 140px;
+    padding: 0;
+    border: none;
+    top: 7px;
+    border-radius: 4px;
+}
+
+.header .language-select .dropdown-menu-end li {
+    margin: 4px 4px;
+}
+
+.header .language-select .dropdown-menu-end li img {
+    border: none;
+    margin-right: 8px;
+}
+
+.header .language-select .dropdown-menu-end li button {
+    border: none;
+    padding: 4px 8px;
+    height: calc(100%/3);
+}
+
+.header .language-select .dropdown-menu-end li .first-language {
+    background: #909BEC;
+}
+
+/*Body-down*/
+.body-down {
+    background: #efefef;
+    height: 1798px;
+}
+
+/*Quote-content*/
+.quote-content {
+    top: 24px;
+    width: 1396px;
+    height: 541px;
+    left: 24px;
+    border-radius: 6px;
+    margin: 0 0;
+}
+
+.quote-content .quote-left {
+    width: 900px;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+.quote-content .quote-left .quote-title {
+    border-radius: 4px;
+    height: 460px;
+    background: #D7E6FF;
+}
+
+.quote-content .quote-left .quote-title h2 {
+    font-size: 32px;
+    font-weight: 900;
+    width: 553px;
+    height: 82px;
+    position: absolute;
+    top: 167px;
+    left: 77px;
+}
+
+.quote-content .quote-left .quote-title .img-down {
+    left: 21px;
+    bottom: 32px;
+}
+
+.quote-content .quote-left .quote-title .img-up {
+    top: 32px;
+    right: 21px;
+}
+
+.quote-content .quote-left .quote-react {
+    font-size: 14px;
+    font-weight: 500;
+    height: 57px;
+    width: 100%;
+}
+
+.quote-content .quote-left .quote-react .react-container .like {
+    margin-right: 20px;
+    width: 64px;
+}
+
+.quote-content .quote-left .quote-react .react-container .share {
+    width: 46px;
+}
+
+.quote-content .quote-left .quote-react .interset {
+    padding: 1px 8px;
+    border: 1px solid black;
+    background: white;
+    border-radius: 4px;
+    width: 97px;
+}
+
+.quote-content .quote-right {
+    width: 452px;
+    margin-top: 24px;
+    margin-left: 12px;
+}
+
+.quote-content .quote-right .quote-desc {
+    width: 249px;
+    height: 236px;
+}
+
+.quote-content .quote-right .quote-desc label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8F8F8F;
+}
+
+.quote-content .quote-right .quote-desc .tag-container {
+    width: 180px;
+}
+
+.quote-content .quote-right .quote-desc .tag-container button {
+    height: 26px;
+    border-radius: 4px;
+    background: #D7E6FF;
+    border: none;
+}
+
+.quote-content .quote-right .quote-explain {
+    margin-top: 56px;
+}
+
+.quote-content .quote-right .quote-explain h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.quote-content .quote-right .quote-explain p {
+    font-size: 14px;
+    font-weight: 400;
+    width: 408px;
+}
+
+.quote-content .quote-right .quote-explain button {
+    border: none;
+    background: none;
+    color: #4E4FEB;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: start;
+    padding: 0 0;
+}
+
+/*Example*/
+.example {
+    margin-top: 24px;
+    margin-left: 24px;
+    width: 1396px;
+    height: 669px;
+}
+
+.example .example-title {
+    width: 100%;
+    min-height: 68px;
+}
+
+.example .example-title h2 {
+    width: 1354;
+    height: 30;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.example .example-title button {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    background: white;
+    border: none;
+}
+
+.example .example-title .dropdown-menu {
+    min-width: 79px;
+    min-height: 104px;
+    padding: 0 0;
+}
+
+.example .example-title .dropdown-menu li {
+    font-size: 12px;
+    font-weight: 400;
+    width: 63px;
+    margin: 14px 8px;
+}
+
+.example .example-content {
+    border-radius: 6px;
+}
+
+.example .accordion {
+    width: 1300px;
+    height: 502px;
+    margin: 44px 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.example .accordion .accordion-item .accordion-button {
+    padding-left: 80px;
+    border-radius: 4px;
+    box-shadow: none;
+    height: 60px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.example .accordion .accordion-item .accordion-button::after {
+    margin-left: -288px;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+}
+
+.accordion-item{
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+}
+
+.accordion-item:not(:first-of-type) {
+    border-top: 1px solid #DFDFDF;
+}
+
+.accordion-body {
+    padding: 1rem 80px;
+}
+
+.accordion-body h2 {
+    color: #404FD3;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.accordion-body p {
+    font-size: 16px;
+    width: 1148px;
+    height: 44px;
+}
+
+
+/*Similar quotes*/
+.similar-quote{
+    margin-left: 24px;
+    width: 1396px;
+    height: 272px;
+}
+
+.similar-quote .similar-title{
+    width: 100%;
+    height: 72px;
+}
+
+.similar-quote .similar-title h2{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.similar-quote .similar-title button{
+    width: 113px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+    background: white;
+    padding: 8px 8px;
+}
+
+.similar-quote .similar-title button span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.front-card{
+    width: 340px;
+    height: 200px;
+    border-radius: 6px;
+    background: white;
+}
+
+.front-card .card-content{
+    width: 316px;
+    height: 111px;
+    font-size: 20px;
+}
+
+.front-card .card-tag{
+    width: 316px;
+    height: 23px;
+    font-size: 12px;
+}
+
+.front-card .card-tag button{
+    border: none;
+    margin-right: 10px;
+    background: #D7E6FF;
+    border-radius: 4px;
+}
+
+.front-card .card-bottom{
+    width: 316px;
+    height: 18px;
+    font-size: 12px;
+}
+
+.front-card .card-bottom button{
+    border: none;
+    background: none;
+    color: #4E4FEB;
+}
+
+.card-bottom ul {
+    min-width: 94px;
+    min-height: 178px;
+    padding: 0 0;
+}
+
+.card-bottom ul li {
+    margin: 15px 0;
+}
+
+.card-bottom ul li span {
+    font-size: 12px;
+    align-items: center;
+    height: 100%;
+}
+
+.card-bottom  a{
+    color: #4E4FEB;
+}

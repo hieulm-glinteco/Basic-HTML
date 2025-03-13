@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <script src="../bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style/style_quotes_example.css">
+</head>
+
+<body>
+  <div class="container-fluid body-up position-relative">
+    <div class="header d-flex justify-content-between align-items-start">
+      <div class="logo">
+        <img src="image/left-quote-svgrepo-com-1.svg" alt="">
+        <p class="text-white mb-0">Quotes</p>
+      </div>
+
+      <nav class="navbar">
+        <ul class="d-flex">
+          <li class="nav-item">
+            <button class="rounded-pill btn-home"></button>
+            <a href="http://127.0.0.1:5500/Bai%204/index_home.html" class="active text-decoration-none home">Home</a>
+          </li>
+          <li class="nav-item">
+            <button class="btn-quote rounded-pill"></button>
+            <a href="http://127.0.0.1:5500/Bai%204/index_quotes_example.html"
+              class="text-decoration-none quote text-white">Quotes</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="language-select">
+        <img src="image/uk-flag-1444045.jpg" alt="" class="rounded-circle position-relative dropdown-toggle"
+          data-bs-toggle="dropdown" role="button">
+
+        <ul class="dropdown-menu dropdown-menu-end">
+          <li>
+            <button class="btn d-flex w-100 align-items-center first-language">
+              <img src="image/uk-flag-1444045.jpg" alt="" class="rounded-circle d-flex p-8">
+              <span>English</span>
+            </button>
+          </li>
+          <li>
+            <button class="btn d-flex w-100">
+              <img src="image/Co-Vietnam.png" alt="" class="rounded-circle">
+              <span>Vietnam</span>
+            </button>
+          </li>
+          <li>
+            <button class="btn d-flex w-100">
+              <img src="image/nhatban.jpg" alt="" class="rounded-circle">
+              <span>Japan</span>
+            </button>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="body-down d-flex flex-column">
+    <div class="quote-content bg-white d-flex position-relative container-fluid">
+      <div class="quote-left ">
+        <div class="quote-title position-relative">
+          <h2>Behind every great man is a woman rolling her eyes</h2>
+          <img src="image/''-down.svg" alt="" class="img-down position-absolute">
+          <img src="image/''-up.svg" alt="" class="img-up position-absolute">
+        </div>
+
+        <div class="quote-react d-flex align-items-center justify-content-between">
+          <div class="react-container d-flex">
+            <button class="like btn px-0 py-0 d-flex align-items-center justify-content-between">
+              <img src="image/heart-circle.svg" alt="">
+              <span>3232</span>
+            </button>
+
+            <button class="share btn px-0 d-flex align-items-center justify-content-between">
+              <img src="image/down.svg" alt="">
+              <span>99</span>
+            </button>
+          </div>
+
+
+          <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">
+            <button class="interset d-flex align-items-center justify-content-between">
+              <img src="image/star-1.svg" alt="">
+              <span>Interest</span>
+            </button>
+          </a>
+        </div>
+      </div>
+
+      <div class="quote-right">
+        <div class="quote-desc d-flex justify-content-between flex-column">
+          <div class="quote-format">
+            <label for="">Author</label>
+            <p class="my-0">Jim Carrey</p>
+          </div>
+          <div class="quote-format">
+            <label for="">Time</label>
+            <p class="my-0">2013</p>
+          </div>
+          <div class="quote-format">
+            <label for="">Time</label>
+            <p class="pm-0">Reader's Digest Quotable Quotes</p>
+          </div>
+          <div class="quote-format">
+            <label for="">Related topics</label>
+            <div class="tag-container d-flex justify-content-between">
+              <button>Like</button>
+              <button>History</button>
+              <button>Funny</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="quote-explain">
+          <h3>Explain</h3>
+          <p>Lorem ipsum dolor sit amet consectetur. Amet volutpat est mollis mattis habitasse. Eros euismod
+            justo nulla diam nulla morbi sed. Adipiscing tortor massa eget in. Faucibus ipsum natoque in
+            lorem sed tellus amet aliquet nullam. Sagittis nullam vel
+          </p>
+          <button>Read more</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="example d-flex flex-column">
+      <div class="example-title d-flex justify-content-between align-items-center">
+        <h2 class="my-0">Example</h2>
+        <button class="choice position-relative dropdown" data-bs-toggle="dropdown" role="button">
+          <img src="image/setting-4.svg" alt="">
+        </button>
+        <ul class="dropdown-menu">
+          <li type="button">Life</li>
+          <li type="button">History</li>
+          <li type="button">Funny</li>
+        </ul>
+      </div>
+
+      <div class="example-content bg-white w-100 h-100">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Use when you want to say.
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h2>Explain:</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ex dolor
+                  incidunt neque perspiciatis commodi quis dolores laboriosam doloribus, vel, iure
+                  inventore aperiam illo ipsam sapiente at necessitatibus ea libero?</p>
+                <h2>Context:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore similique
+                  corrupti deleniti sapiente! Laudantium accusantium esse non, fuga perferendis
+                  voluptates inventore quis praesentium, vitae optio numquam. Alias, fugit
+                  repellendus.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                aria-expanded="true" aria-controls="collapseTwo">
+                Use when you want to say.
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h2>Explain:</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ex dolor
+                  incidunt neque perspiciatis commodi quis dolores laboriosam doloribus, vel, iure
+                  inventore aperiam illo ipsam sapiente at necessitatibus ea libero?</p>
+                <h2>Context:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore similique
+                  corrupti deleniti sapiente! Laudantium accusantium esse non, fuga perferendis
+                  voluptates inventore quis praesentium, vitae optio numquam. Alias, fugit
+                  repellendus.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree"
+                aria-expanded="true" aria-controls="collapseThree">
+                Use when you want to say.
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h2>Explain:</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ex dolor
+                  incidunt neque perspiciatis commodi quis dolores laboriosam doloribus, vel, iure
+                  inventore aperiam illo ipsam sapiente at necessitatibus ea libero?</p>
+                <h2>Context:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore similique
+                  corrupti deleniti sapiente! Laudantium accusantium esse non, fuga perferendis
+                  voluptates inventore quis praesentium, vitae optio numquam. Alias, fugit
+                  repellendus.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour"
+                aria-expanded="true" aria-controls="collapseFour">
+                Use when you want to say.
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <h2>Explain:</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere ex dolor
+                  incidunt neque perspiciatis commodi quis dolores laboriosam doloribus, vel, iure
+                  inventore aperiam illo ipsam sapiente at necessitatibus ea libero?</p>
+                <h2>Context:</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae tempore similique
+                  corrupti deleniti sapiente! Laudantium accusantium esse non, fuga perferendis
+                  voluptates inventore quis praesentium, vitae optio numquam. Alias, fugit
+                  repellendus.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="similar-quote d-flex flex-column">
+      <div class="similar-title d-flex justify-content-between align-items-center">
+        <h2 class="my-0">Similar Quotes</h2>
+        <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">
+          <button class="btn d-flex align-items-center justify-content-between">
+            <span>View more</span>
+            <img src="image/arrow-circle-right.svg" alt="">
+          </button>
+        </a>
+      </div>
+
+      <div class="similar-content w-100">
+        <div class="row w-100 d-flex justify-content-between ms-0">
+          <div class="col-3 front-card d-flex justify-content-around flex-column">
+            <div class="card-content">
+              <p>It is too late to lock the stable when the horse is stolen</p>
+            </div>
+
+            <div class="card-tag d-flex justify-content-start">
+              <button class="h-100 d-flex align-items-center">Life</button>
+              <button class="h-100 d-flex align-items-center">History</button>
+              <button class="h-100 d-flex align-items-center">Funny</button>
+            </div>
+
+            <div class="card-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
+                <img src="image/down.svg" alt="">
+                <span>Share</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-3 front-card d-flex justify-content-around flex-column">
+            <div class="card-content">
+              <p>It is too late to lock the stable when the horse is stolen</p>
+            </div>
+
+            <div class="card-tag d-flex justify-content-start">
+              <button class="h-100 d-flex align-items-center">Life</button>
+              <button class="h-100 d-flex align-items-center">History</button>
+              <button class="h-100 d-flex align-items-center">Funny</button>
+            </div>
+
+            <div class="card-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
+                <img src="image/down.svg" alt="">
+                <span>Share</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-3 front-card d-flex justify-content-around flex-column">
+            <div class="card-content">
+              <p>It is too late to lock the stable when the horse is stolen</p>
+            </div>
+
+            <div class="card-tag d-flex justify-content-start">
+              <button class="h-100 d-flex align-items-center">Life</button>
+              <button class="h-100 d-flex align-items-center">History</button>
+              <button class="h-100 d-flex align-items-center">Funny</button>
+            </div>
+
+            <div class="card-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
+                <img src="image/down.svg" alt="">
+                <span>Share</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-3 front-card d-flex justify-content-around flex-column">
+            <div class="card-content">
+              <p>It is too late to lock the stable when the horse is stolen</p>
+            </div>
+
+            <div class="card-tag d-flex justify-content-start">
+              <button class="h-100 d-flex align-items-center">Life</button>
+              <button class="h-100 d-flex align-items-center">History</button>
+              <button class="h-100 d-flex align-items-center">Funny</button>
+            </div>
+
+            <div class="card-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
+                <img src="image/down.svg" alt="">
+                <span>Share</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="other-ralated similar-quote d-flex flex-column">
+      <div class="other-title similar-title d-flex justify-content-between align-items-center">
+        <h2 class="my-0">Other related quotes</h2>
+        <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">
+          <button class="btn d-flex align-items-center justify-content-between">
+            <span>View more</span>
+            <img src="image/arrow-circle-right.svg" alt="">
+          </button>
+        </a>
+      </div>
+      <div class="other-content similar-content w-100">
+        <div class="row w-100 d-flex justify-content-between ms-0">
+          <div class="col-3 front-card d-flex justify-content-around flex-column">
+            <div class="card-content">
+              <p>It is too late to lock the stable when the horse is stolen</p>
+            </div>
+
+            <div class="card-tag d-flex justify-content-start">
+              <button class="h-100 d-flex align-items-center">Life</button>
+              <button class="h-100 d-flex align-items-center">History</button>
+              <button class="h-100 d-flex align-items-center">Funny</button>
+            </div>
+
+            <div class="card-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
+                <img src="image/down.svg" alt="">
+                <span>Share</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-3 front-card d-flex justify-content-around flex-column">
+            <div class="card-content">
+              <p>It is too late to lock the stable when the horse is stolen</p>
+            </div>
+
+            <div class="card-tag d-flex justify-content-start">
+              <button class="h-100 d-flex align-items-center">Life</button>
+              <button class="h-100 d-flex align-items-center">History</button>
+              <button class="h-100 d-flex align-items-center">Funny</button>
+            </div>
+
+            <div class="card-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
+                <img src="image/down.svg" alt="">
+                <span>Share</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-3 front-card d-flex justify-content-around flex-column">
+            <div class="card-content">
+              <p>It is too late to lock the stable when the horse is stolen</p>
+            </div>
+
+            <div class="card-tag d-flex justify-content-start">
+              <button class="h-100 d-flex align-items-center">Life</button>
+              <button class="h-100 d-flex align-items-center">History</button>
+              <button class="h-100 d-flex align-items-center">Funny</button>
+            </div>
+
+            <div class="card-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
+                <img src="image/down.svg" alt="">
+                <span>Share</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
+            </div>
+          </div>
+
+          <div class="col-3 front-card d-flex justify-content-around flex-column">
+            <div class="card-content">
+              <p>It is too late to lock the stable when the horse is stolen</p>
+            </div>
+
+            <div class="card-tag d-flex justify-content-start">
+              <button class="h-100 d-flex align-items-center">Life</button>
+              <button class="h-100 d-flex align-items-center">History</button>
+              <button class="h-100 d-flex align-items-center">Funny</button>
+            </div>
+
+            <div class="card-bottom d-flex justify-content-between">
+              <button class="card-share h-100 d-flex align-items-center dropdown" data-bs-toggle="dropdown">
+                <img src="image/down.svg" alt="">
+                <span>Share</span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-start">
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/copy-success.svg" alt="">
+                    <span class="text-dark">Copy link</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/sms.svg" alt="">
+                    <span class="text-dark">Email</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-fb-simple 1.svg" alt="">
+                    <span class="text-dark">Facebook</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/logo-twitter 1.svg" alt="">
+                    <span class="text-dark">Twitter</span>
+                  </button>
+                </li>
+                <li class="d-flex justify-content-between align-items-center">
+                  <button class="w-100 py-0 d-flex align-items-center">
+                    <img class="me-2" src="image/linkedin-112 1.svg" alt="">
+                    <span class="text-dark">Linkedin</span>
+                  </button>
+                </li>
+              </ul>
+              <button class="card-detail h-100 d-flex align-items-center">
+                <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">Detail</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
