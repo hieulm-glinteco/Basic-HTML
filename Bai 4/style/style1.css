@@ -1,3 +1,4 @@
+
 .body {
     margin: 0 0;
     box-sizing: border-box;
@@ -183,7 +184,6 @@
     width: 46px;
 }
 
-
 .quote-content .quote-left .quote-react .interset {
     padding: 1px 8px;
     border: 1px solid black;
@@ -191,35 +191,6 @@
     border-radius: 4px;
     width: 97px;
 }
-
-.quote-content .quote-right .quote-react{
-    display: none !important;
-}
-
-/* .quote-content .quote-right .quote-react {
-    font-size: 14px;
-    font-weight: 500;
-    height: 57px;
-    width: 100%;
-}
-
-.quote-content .quote-right .quote-react .react-container .like {
-    margin-right: 20px;
-    width: 64px;
-}
-
-.quote-content .quote-right .quote-react .react-container .share {
-    width: 46px;
-}
-
-
-.quote-content .quote-right .quote-react .interset {
-    padding: 1px 8px;
-    border: 1px solid black;
-    background: white;
-    border-radius: 4px;
-    width: 97px;
-} */
 
 .quote-content .quote-right {
     width: 452px;
@@ -272,11 +243,6 @@
     font-weight: 400;
     text-align: start;
     padding: 0 0;
-}
-
-/*Back*/
-.body-down .back {
-    display: none;
 }
 
 /*Example*/
@@ -351,8 +317,9 @@
     background-color: white;
 }
 
-.accordion-item {
+.accordion-item{
     border: 1px solid #DFDFDF;
+    border-radius: 4px;
 }
 
 .accordion-item:not(:first-of-type) {
@@ -377,23 +344,23 @@
 
 
 /*Similar quotes*/
-.similar-quote {
+.similar-quote{
     margin-left: 24px;
     width: 1396px;
     height: 272px;
 }
 
-.similar-quote .similar-title {
+.similar-quote .similar-title{
     width: 100%;
     height: 72px;
 }
 
-.similar-quote .similar-title h2 {
+.similar-quote .similar-title h2{
     font-size: 24px;
     font-weight: 700;
 }
 
-.similar-quote .similar-title button {
+.similar-quote .similar-title button{
     width: 113px;
     height: 36px;
     border-radius: 4px;
@@ -402,44 +369,44 @@
     padding: 8px 8px;
 }
 
-.similar-quote .similar-title button span {
+.similar-quote .similar-title button span{
     font-size: 14px;
     font-weight: 500;
 }
 
-.front-card {
+.front-card{
     width: 340px;
     height: 200px;
     border-radius: 6px;
     background: white;
 }
 
-.front-card .card-content {
+.front-card .card-content{
     width: 316px;
     height: 111px;
     font-size: 20px;
 }
 
-.front-card .card-tag {
+.front-card .card-tag{
     width: 316px;
     height: 23px;
     font-size: 12px;
 }
 
-.front-card .card-tag button {
+.front-card .card-tag button{
     border: none;
     margin-right: 10px;
     background: #D7E6FF;
     border-radius: 4px;
 }
 
-.front-card .card-bottom {
+.front-card .card-bottom{
     width: 316px;
     height: 18px;
     font-size: 12px;
 }
 
-.front-card .card-bottom button {
+.front-card .card-bottom button{
     border: none;
     background: none;
     color: #4E4FEB;
@@ -461,7 +428,7 @@
     height: 100%;
 }
 
-.card-bottom a {
+.card-bottom  a{
     color: #4E4FEB;
 }
 
@@ -470,15 +437,11 @@
         display: none !important;
     }
 
-    .body-down{
-        height: 2067px;
-    }
-
-    .body-down .back {
+    .body-down a {
         display: unset;
         position: relative;
         top: 58px;
-        margin-left: 16px;
+        left: 16px;
     }
 
     .body-down a .btn-back {
@@ -492,156 +455,31 @@
 
     .quote-content{
         width: 343px;
-        min-height: 606px;
+        min-height: 608px;
         top: 80px;
         left: 18px;
-        flex-direction: column;
     }
-    
 
     .quote-left{
-        display: flex;
-        flex-direction: column;
-        width: 319px !important;
-        margin: 0 !important;
-    }
-
-    .quote-left .quote-title img{
-        display: none;
-    }
-
-    .quote-left .quote-title{
-        width: 319px;
-        height: 74px !important;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: none !important;
-    }
-
-    .quote-left .quote-title h2{
-        top: 0 !important;
-        left: 0 !important;
-        font-size: 20px !important;
-        width: 319px !important;
-        height: 74px !important;
-        margin: 0;
-        padding-top: 10px;
-    }
-
-    .quote-right{
-        display: flex;
-        flex-direction: column;
-        width: 319px !important;
-        margin: 0 !important;
-    }
-
-    .quote-content .quote-right .quote-react {
-        display: flex !important;
-        font-size: 14px;
-        font-weight: 500;
-        height: 30px;
-        width: 100%;
-        margin-top: 25px;
-    }
-    
-    .quote-content .quote-right .quote-react .react-container .like {
-        margin-right: 20px;
-        width: 64px;
-    }
-    
-    .quote-content .quote-right .quote-react .react-container .share {
-        width: 46px;
-    }
-    
-    
-    .quote-content .quote-right .quote-react .interset {
-        padding: 1px 8px;
-        border: 1px solid black;
-        background: white;
-        border-radius: 4px;
-        width: 97px;
-    }
-
-    .quote-right .quote-explain{
-        width: 100%;
-        margin-top: 36px !important;
-    }
-
-    .quote-right .quote-explain p{
-        width: 100% !important;
-    }
-
-    .quote-left .quote-react{
         display: none !important;
     }
 
-
-    .example{
-        margin: 0 0;
-        width: 375px;
+    .quote-right{
+        display: none !important;
     }
 
-    .example .example-title{
+    .example{
         margin-top: 84px;
         margin-left: 18px;
         width: 343px;
     }
 
-    .example .example-content{
-        width: 375px !important;
-        min-height: 710px;
-        border-radius: 0px;
-    }
-
-    .example .accordion{
-        width: 343px;
-        margin: 0 16px;
-        height: 710px;
-        justify-content: space-around;
-    }
-
-    .example .accordion p{
-        width: 271px;
-    }
-
     .similar-quote{
         margin-left: 18px;
         width: 343px;
-        margin-top: 190px;
     }
 
-    .other-ralated {
-        margin-top: 0px !important;
-    }
-
-    .similar-content .row .col-3:nth-child(n+2){
-        display: none !important;
-    }
-
-    .other-content .row .col-3:nth-child(n+2){
-        display: none !important;
-    }
-
-    .accordion .accordion-body{
-        height: 423px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        padding: 16px 64px;
-    }
-
-    .accordion .accordion-body .acc-content{
-        height: 163px;
-    }
-
-    .accordion .accordion-body .acc-content p{
-        height: 132px;
-    }
-
-    .similar-quote .similar-title h2 {
-        font-size: 20px;
-        font-weight: 700;
+    .similar-content, .other-content{
+        display: none;
     }
 }
-

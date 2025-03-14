@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../bootstrap.min.css">
+  <style>
+    .quote-content {
+      top: 24px;
+      width: 1396px;
+      height: 541px;
+      left: 24px;
+      border-radius: 6px;
+      margin: 0 0;
+    }
+
+    .quote-content .quote-left {
+      width: 900px;
+      margin-left: 24px;
+      margin-top: 24px;
+    }
+
+    .quote-content .quote-left .quote-title {
+      border-radius: 4px;
+      height: 460px;
+      background: #D7E6FF;
+    }
+
+    .quote-content .quote-left .quote-title h2 {
+      font-size: 32px;
+      font-weight: 900;
+      width: 553px;
+      height: 82px;
+      position: absolute;
+      top: 167px;
+      left: 77px;
+    }
+
+    .quote-content .quote-left .quote-title .img-down {
+      left: 21px;
+      bottom: 32px;
+    }
+
+    .quote-content .quote-left .quote-title .img-up {
+      top: 32px;
+      right: 21px;
+    }
+
+    .quote-content .quote-left .quote-react {
+      font-size: 14px;
+      font-weight: 500;
+      height: 57px;
+      width: 100%;
+    }
+
+    .quote-content .quote-left .quote-react .react-container .like {
+      margin-right: 20px;
+      width: 64px;
+    }
+
+    .quote-content .quote-left .quote-react .react-container .share {
+      width: 46px;
+    }
+
+    .quote-content .quote-left .quote-react .interset {
+      padding: 1px 8px;
+      border: 1px solid black;
+      background: white;
+      border-radius: 4px;
+      width: 97px;
+    }
+
+    .quote-content .quote-right {
+      width: 452px;
+      margin-top: 24px;
+      margin-left: 12px;
+    }
+
+    .quote-content .quote-right .quote-desc {
+      width: 249px;
+      height: 236px;
+    }
+
+    .quote-content .quote-right .quote-desc label {
+      font-size: 14px;
+      font-weight: 400;
+      color: #8F8F8F;
+    }
+
+    .quote-content .quote-right .quote-desc .tag-container {
+      width: 180px;
+    }
+
+    .quote-content .quote-right .quote-desc .tag-container button {
+      height: 26px;
+      border-radius: 4px;
+      background: #D7E6FF;
+      border: none;
+    }
+
+    .quote-content .quote-right .quote-explain {
+      margin-top: 56px;
+    }
+
+    .quote-content .quote-right .quote-explain h3 {
+      font-size: 18px;
+      font-weight: 700;
+    }
+
+    .quote-content .quote-right .quote-explain p {
+      font-size: 14px;
+      font-weight: 400;
+      width: 408px;
+    }
+
+    .quote-content .quote-right .quote-explain button {
+      border: none;
+      background: none;
+      color: #4E4FEB;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: start;
+      padding: 0 0;
+    }
+
+    
+
+  </style>
+
+</head>
+
+<body>
+  <div class="quote-content bg-white d-flex position-relative container-fluid grid-container">
+    <div class="quote-left ">
+      <div class="quote-title position-relative">
+        <h2>Behind every great man is a woman rolling her eyes</h2>
+        <img src="image/''-down.svg" alt="" class="img-down position-absolute">
+        <img src="image/''-up.svg" alt="" class="img-up position-absolute">
+      </div>
+
+      <div class="quote-react d-flex align-items-center justify-content-between">
+        <div class="react-container d-flex">
+          <button class="like btn px-0 py-0 d-flex align-items-center justify-content-between">
+            <img src="image/heart-circle.svg" alt="">
+            <span>3232</span>
+          </button>
+
+          <button class="share btn px-0 d-flex align-items-center justify-content-between">
+            <img src="image/down.svg" alt="">
+            <span>99</span>
+          </button>
+        </div>
+
+
+        <a href="http://127.0.0.1:5500/Bai%204/index_quotes_tag.html" class="text-decoration-none">
+          <button class="interset d-flex align-items-center justify-content-between">
+            <img src="image/star-1.svg" alt="">
+            <span>Interest</span>
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div class="quote-right">
+      <div class="quote-desc d-flex justify-content-between flex-column">
+        <div class="quote-format">
+          <label for="">Author</label>
+          <p class="my-0">Jim Carrey</p>
+        </div>
+        <div class="quote-format">
+          <label for="">Time</label>
+          <p class="my-0">2013</p>
+        </div>
+        <div class="quote-format">
+          <label for="">Time</label>
+          <p class="pm-0">Reader's Digest Quotable Quotes</p>
+        </div>
+        <div class="quote-format">
+          <label for="">Related topics</label>
+          <div class="tag-container d-flex justify-content-between">
+            <button>Like</button>
+            <button>History</button>
+            <button>Funny</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-explain">
+        <h3>Explain</h3>
+        <p>Lorem ipsum dolor sit amet consectetur. Amet volutpat est mollis mattis habitasse. Eros euismod
+          justo nulla diam nulla morbi sed. Adipiscing tortor massa eget in. Faucibus ipsum natoque in
+          lorem sed tellus amet aliquet nullam. Sagittis nullam vel
+        </p>
+        <button>Read more</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
